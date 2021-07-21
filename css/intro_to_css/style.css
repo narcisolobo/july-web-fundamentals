@@ -1,0 +1,58 @@
+/* CSS - Cascading Style Sheets */
+
+/*
+  Parts of a CSS rule:
+
+  1. Selector
+    a. HTML element selector
+    b. ID selector
+    c. class selector
+  2. Properties
+  3. Values
+*/
+h1 {
+  color: green;
+}
+
+p {
+  color: red;
+}
+
+#nav {
+  background-color: aqua;
+  min-height: 75px;
+  padding: 35px;
+  border: 5px solid blue;
+  margin: 15px;
+}
+
+.bg-lavender {
+  background-color: lavender;
+}
+
+/* 
+  Box Model
+  From inner to outer:
+  Element, padding, border, margin
+*/
+
+#left {
+  background-color: brown;
+}
+
+#right {
+  background-color: crimson;
+}
+
+#left {
+  min-width: 300px;
+  min-height: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#right {
+  min-width: 300px;
+  min-height: 700px;
+  display: inline-block;
+}
