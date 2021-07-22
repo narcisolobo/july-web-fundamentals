@@ -1,0 +1,58 @@
+/*
+
+  Position Property
+  DO NOT ABUSE POSITION
+  If you need to break the plane of an element with another element, position can be a good solution.
+
+  Value of position:
+  position: static - default: the element is in its normal position
+  position: relative - relative to its normal position
+  position: absolute - relative to its closest positioned ancestor
+  position: fixed - relative to the viewport
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#navbar {
+  background-color: navy;
+  min-height: 100px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.card {
+  width: 400px;
+  min-height: 200px;
+  border: 2px solid rgb(165, 165, 165);
+  margin: 0 auto;
+}
+
+.card-header {
+  background-color: cornflowerblue;
+  min-height: 50px;
+  position: relative;
+}
+
+.circle {
+  border: 2px solid rgb(165, 165, 165);
+  border-radius: 50%;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 25px;
+  top: 25px;
+}
+
+.card-body {
+  padding: 1.5em;
+}
+
+.margin {
+  margin-bottom: 2000px;
+}
