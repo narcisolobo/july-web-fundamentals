@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  /* outline: 1px dashed red; */
+}
+
+/* nav classes */
+nav {
+  background-color: red;
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.logo, .menu {
+  /* background-color: yellow; */
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  gap: 1.5em;
+}
+
+/* utility classes */
+.container {
+  /* background-color: darkgreen; */
+  /* min-height: 100px; */
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  gap: 1.5em;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1.5em;
+}
+
+/* content classes */
+aside {
+  flex: 1;
+  /* background-color: blue; */
+  min-height: 400px;
+}
+
+main {
+  flex: 2;
+  /* background-color: purple; */
+  min-height: 400px;
+}
+
+.aside-item {
+  background-color: hotpink;
+  min-height: 100px;
+}
+
+.main-item {
+  background-color: aqua;
+  min-height: 200px;
+}
+
+/* footer classes */
+footer {
+  background-color: orange;
+  min-height: 100px;
+}
